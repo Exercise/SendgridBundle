@@ -1,0 +1,25 @@
+{
+    "name": "exercise/sendgrid-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle for exercise sendgrid library",
+    "keywords": ["sendgrid", "api", "bundle"],
+    "homepage": "https://github.com/Exercise/SendgridBundle.git",
+    "license": "MIT",
+    "authors": [
+        { "name": "Alex Kovalevych", "email": "alexkovalevych@gmail.com" }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "exercise/sendgrid-sdk-php": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Exercise\\SendgridBundle": "" }
+    },
+    "target-dir": "Exercise/SendgridBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
